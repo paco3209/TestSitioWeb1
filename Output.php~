@@ -1,5 +1,5 @@
 <?php
-
+//pruebgit
 
 require_once('PageNavigator.php');
 
@@ -489,6 +489,6 @@ function display_cerrar_sesion () {
 </div>
 <?php	
 }
-do_html_footer();
+
 ?>
 

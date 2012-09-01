@@ -1,0 +1,4 @@
+#Thu Feb 23 00:25:49 ART 2012
+eclipse.preferences.version=1
+org.eclipse.dltk.debug.ui.alert_hot_code_replace_failed=true
+org.eclipse.dltk.debug.ui.alert_hot_code_replace_not_supported=true

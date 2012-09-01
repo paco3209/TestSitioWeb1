@@ -1,0 +1,1906 @@
+!SESSION 2011-12-13 00:57:13.540 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2011-12-13 00:57:22.466
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-12-13 00:57:22.466
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2011-12-13 00:57:22.466
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-02-05 13:16:51.630 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86 -data /var/www/TestSitioWeb
+
+!ENTRY org.eclipse.jface 2 0 2012-02-05 13:16:56.198
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-05 13:16:56.198
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-05 13:16:56.198
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-02-05 13:17:20.344 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86 -data /var/www/TestSitioWeb
+
+!ENTRY org.eclipse.jface 2 0 2012-02-05 13:17:24.411
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-05 13:17:24.411
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-05 13:17:24.411
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-02-05 13:33:20.394 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2012-02-05 13:33:42.900
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-05 13:33:42.900
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-05 13:33:42.900
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.php.debug.core 4 4 2012-02-05 13:33:45.268
+!MESSAGE The debug port 10000 is in use. Please select a different port for the debugger.
+
+!ENTRY org.eclipse.php.debug.core 4 4 2012-02-05 13:33:45.269
+!MESSAGE The debug port 9000 is in use. Please select a different port for the debugger.
+!SESSION 2012-02-05 13:34:27.060 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86 -data /var/www/TestSitioWeb
+
+!ENTRY org.eclipse.jface 2 0 2012-02-05 13:34:31.240
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-05 13:34:31.240
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-05 13:34:31.240
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.php.debug.core 4 4 2012-02-05 13:34:32.460
+!MESSAGE The debug port 10000 is in use. Please select a different port for the debugger.
+
+!ENTRY org.eclipse.php.debug.core 4 4 2012-02-05 13:34:32.461
+!MESSAGE The debug port 9000 is in use. Please select a different port for the debugger.
+!SESSION 2012-02-05 13:39:30.097 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.php.product -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.php.product -data /var/www/TestSitioWeb -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.php.debug.core 4 4 2012-02-05 13:39:36.112
+!MESSAGE The debug port 10000 is in use. Please select a different port for the debugger.
+
+!ENTRY org.eclipse.php.debug.core 4 4 2012-02-05 13:39:36.131
+!MESSAGE The debug port 9000 is in use. Please select a different port for the debugger.
+!SESSION 2012-02-22 22:47:46.055 -----------------------------------------------
+eclipse.buildId=I20100608-0911
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Framework arguments:  -product org.eclipse.epp.package.php.product
+Command-line arguments:  -os linux -ws gtk -arch x86 -product org.eclipse.epp.package.php.product
+
+!ENTRY org.eclipse.jface.text 2 0 2012-02-22 23:44:27.034
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2012-02-22 23:44:28.227
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2012-02-22 23:44:31.546
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2012-02-22 23:44:32.315
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2012-02-22 23:44:38.169
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2012-02-22 23:44:43.008
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY org.eclipse.jface.text 2 0 2012-02-22 23:44:43.752
+!MESSAGE 
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.extractScriptdoc(ProposalInfo.java:106)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.computeInfo(ProposalInfo.java:84)
+	at org.eclipse.dltk.ui.text.completion.ProposalInfo.getInfo(ProposalInfo.java:67)
+	at org.eclipse.dltk.ui.text.completion.AbstractScriptCompletionProposal.getAdditionalProposalInfo(AbstractScriptCompletionProposal.java:440)
+	at org.eclipse.jface.text.contentassist.AdditionalInfoController$3.run(AdditionalInfoController.java:106)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2012-02-25 15:17:30.241 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2012-02-25 15:17:50.842
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-25 15:17:50.842
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-25 15:17:50.842
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-02-25 15:23:09.412 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2012-02-25 15:23:20.900
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-25 15:23:20.900
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-25 15:23:20.900
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:26:53.883
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:26:53.883
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:26:53.883
+!MESSAGE Software being installed: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:26:53.883
+!MESSAGE Missing requirement: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh) requires 'org.eclipse.wst.feature.group [2.0.0,3.0.0)' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:26:53.883
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:26:53.884
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:26:53.884
+!MESSAGE Software being installed: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:26:53.884
+!MESSAGE Missing requirement: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh) requires 'org.eclipse.wst.feature.group [2.0.0,3.0.0)' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:26:53.897
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:26:53.898
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:26:53.898
+!MESSAGE Software being installed: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:26:53.898
+!MESSAGE Missing requirement: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh) requires 'org.eclipse.wst.feature.group [2.0.0,3.0.0)' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:26:53.958
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:26:53.958
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:26:53.958
+!MESSAGE Software being installed: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:26:53.958
+!MESSAGE Missing requirement: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh) requires 'org.eclipse.wst.feature.group [2.0.0,3.0.0)' but it could not be found
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:27:29.078
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:29.078
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.078
+!MESSAGE Software being installed: PDT SDK Feature 1.0.5.v20081126-1856 (org.eclipse.php.sdk_feature.feature.group 1.0.5.v20081126-1856)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.078
+!MESSAGE Software currently installed: PHP Development Tools (PDT) SDK Feature 2.1.1.v20090707-1108-51584QACJCRCUeNRkNYbOJecWK9O (org.eclipse.php.sdk.feature.group 2.1.1.v20090707-1108-51584QACJCRCUeNRkNYbOJecWK9O)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:29.078
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.078
+!MESSAGE PDT Plug-in 2.1.1.v20090707-1108 (org.eclipse.php 2.1.1.v20090707-1108)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.078
+!MESSAGE org.eclipse.php 1.0.5.v20081126-1856
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:29.078
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.078
+!MESSAGE From: PHP Development Tools (PDT) Runtime Feature 2.1.3.v20090914-1400-7L7979F8NcJKhKWS09TTK2 (org.eclipse.php.feature.group 2.1.3.v20090914-1400-7L7979F8NcJKhKWS09TTK2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.079
+!MESSAGE To: org.eclipse.php [2.1.1.v20090707-1108]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:29.079
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.079
+!MESSAGE From: PHP Development Tools (PDT) SDK Feature 2.1.1.v20090707-1108-51584QACJCRCUeNRkNYbOJecWK9O (org.eclipse.php.sdk.feature.group 2.1.1.v20090707-1108-51584QACJCRCUeNRkNYbOJecWK9O)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.079
+!MESSAGE To: org.eclipse.php.feature.group [2.1.3.v20090914-1400-7L7979F8NcJKhKWS09TTK2]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:29.079
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.079
+!MESSAGE From: PDT SDK Feature 1.0.5.v20081126-1856 (org.eclipse.php.sdk_feature.feature.group 1.0.5.v20081126-1856)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.079
+!MESSAGE To: org.eclipse.php_feature.feature.group [1.0.5.v20081126-1856]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:29.079
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.079
+!MESSAGE From: PDT Feature 1.0.5.v20081126-1856 (org.eclipse.php_feature.feature.group 1.0.5.v20081126-1856)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.079
+!MESSAGE To: org.eclipse.php [1.0.5.v20081126-1856]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:27:29.094
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:29.094
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.094
+!MESSAGE Software being installed: PDT SDK Feature 1.0.5.v20081126-1856 (org.eclipse.php.sdk_feature.feature.group 1.0.5.v20081126-1856)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.094
+!MESSAGE Software currently installed: PHP Development Tools (PDT) SDK Feature 2.1.1.v20090707-1108-51584QACJCRCUeNRkNYbOJecWK9O (org.eclipse.php.sdk.feature.group 2.1.1.v20090707-1108-51584QACJCRCUeNRkNYbOJecWK9O)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:29.094
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.094
+!MESSAGE PDT Plug-in 2.1.1.v20090707-1108 (org.eclipse.php 2.1.1.v20090707-1108)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.094
+!MESSAGE org.eclipse.php 1.0.5.v20081126-1856
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:29.094
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.094
+!MESSAGE From: PHP Development Tools (PDT) Runtime Feature 2.1.3.v20090914-1400-7L7979F8NcJKhKWS09TTK2 (org.eclipse.php.feature.group 2.1.3.v20090914-1400-7L7979F8NcJKhKWS09TTK2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.094
+!MESSAGE To: org.eclipse.php [2.1.1.v20090707-1108]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:29.094
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.094
+!MESSAGE From: PHP Development Tools (PDT) SDK Feature 2.1.1.v20090707-1108-51584QACJCRCUeNRkNYbOJecWK9O (org.eclipse.php.sdk.feature.group 2.1.1.v20090707-1108-51584QACJCRCUeNRkNYbOJecWK9O)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.094
+!MESSAGE To: org.eclipse.php.feature.group [2.1.3.v20090914-1400-7L7979F8NcJKhKWS09TTK2]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:29.094
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.094
+!MESSAGE From: PDT SDK Feature 1.0.5.v20081126-1856 (org.eclipse.php.sdk_feature.feature.group 1.0.5.v20081126-1856)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.094
+!MESSAGE To: org.eclipse.php_feature.feature.group [1.0.5.v20081126-1856]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:29.094
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.094
+!MESSAGE From: PDT Feature 1.0.5.v20081126-1856 (org.eclipse.php_feature.feature.group 1.0.5.v20081126-1856)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:29.094
+!MESSAGE To: org.eclipse.php [1.0.5.v20081126-1856]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:27:46.932
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:46.932
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:46.932
+!MESSAGE Software being installed: PDT SDK Feature 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI (org.eclipse.php.sdk_feature.feature.group 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:46.932
+!MESSAGE Missing requirement: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh) requires 'org.eclipse.wst.feature.group [2.0.0,3.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:46.932
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:46.932
+!MESSAGE From: PDT SDK Feature 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI (org.eclipse.php.sdk_feature.feature.group 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:46.932
+!MESSAGE To: org.eclipse.php_feature.feature.group [1.0.3.v20080603-79-7PE7QYGHNH6Gh]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:27:46.940
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:46.940
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:46.940
+!MESSAGE Software being installed: PDT SDK Feature 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI (org.eclipse.php.sdk_feature.feature.group 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:46.940
+!MESSAGE Missing requirement: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh) requires 'org.eclipse.wst.feature.group [2.0.0,3.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:27:46.940
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:46.940
+!MESSAGE From: PDT SDK Feature 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI (org.eclipse.php.sdk_feature.feature.group 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:27:46.940
+!MESSAGE To: org.eclipse.php_feature.feature.group [1.0.3.v20080603-79-7PE7QYGHNH6Gh]
+!SESSION 2012-02-25 15:29:45.843 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2012-02-25 15:29:52.861
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-25 15:29:52.861
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-25 15:29:52.861
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-02-25 15:53:52.922 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2012-02-25 15:54:05.515
+!MESSAGE Unable to create editor ID org.eclipse.php.editor: No editor descriptor for id org.eclipse.php.editor
+!STACK 1
+org.eclipse.ui.PartInitException: No editor descriptor for id org.eclipse.php.editor
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:598)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SUBENTRY 1 org.eclipse.ui 4 0 2012-02-25 15:54:05.516
+!MESSAGE No editor descriptor for id org.eclipse.php.editor
+
+!ENTRY org.eclipse.ui 2 2 2012-02-25 15:54:05.594
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@12eec98 from part: org.eclipse.ui.internal.ErrorEditorPart@12eec98
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:117)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:684)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.jface 2 0 2012-02-25 15:54:06.699
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-25 15:54:06.699
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-25 15:54:06.699
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:55:08.441
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:55:08.441
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.441
+!MESSAGE Software being installed: PDT SDK Feature 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI (org.eclipse.php.sdk_feature.feature.group 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.441
+!MESSAGE Missing requirement: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh) requires 'org.eclipse.wst.feature.group [2.0.0,3.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:55:08.441
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.441
+!MESSAGE From: PDT SDK Feature 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI (org.eclipse.php.sdk_feature.feature.group 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.441
+!MESSAGE To: org.eclipse.php_feature.feature.group [1.0.3.v20080603-79-7PE7QYGHNH6Gh]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:55:08.441
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:55:08.442
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.442
+!MESSAGE Software being installed: PDT SDK Feature 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI (org.eclipse.php.sdk_feature.feature.group 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.442
+!MESSAGE Missing requirement: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh) requires 'org.eclipse.wst.feature.group [2.0.0,3.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:55:08.442
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.442
+!MESSAGE From: PDT SDK Feature 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI (org.eclipse.php.sdk_feature.feature.group 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.442
+!MESSAGE To: org.eclipse.php_feature.feature.group [1.0.3.v20080603-79-7PE7QYGHNH6Gh]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:55:08.448
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:55:08.448
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.448
+!MESSAGE Software being installed: PDT SDK Feature 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI (org.eclipse.php.sdk_feature.feature.group 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.448
+!MESSAGE Missing requirement: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh) requires 'org.eclipse.wst.feature.group [2.0.0,3.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:55:08.448
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.448
+!MESSAGE From: PDT SDK Feature 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI (org.eclipse.php.sdk_feature.feature.group 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.448
+!MESSAGE To: org.eclipse.php_feature.feature.group [1.0.3.v20080603-79-7PE7QYGHNH6Gh]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:55:08.478
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:55:08.479
+!MESSAGE Cannot complete the install because one or more required items could not be found.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.479
+!MESSAGE Software being installed: PDT SDK Feature 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI (org.eclipse.php.sdk_feature.feature.group 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.479
+!MESSAGE Missing requirement: PDT Feature 1.0.3.v20080603-79-7PE7QYGHNH6Gh (org.eclipse.php_feature.feature.group 1.0.3.v20080603-79-7PE7QYGHNH6Gh) requires 'org.eclipse.wst.feature.group [2.0.0,3.0.0)' but it could not be found
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:55:08.479
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.479
+!MESSAGE From: PDT SDK Feature 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI (org.eclipse.php.sdk_feature.feature.group 1.0.3.v20080603-2-584D2_aHFTeIRZJFjz-8RZHIOI)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:55:08.479
+!MESSAGE To: org.eclipse.php_feature.feature.group [1.0.3.v20080603-79-7PE7QYGHNH6Gh]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:56:22.821
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10001 2012-02-25 15:56:22.821
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10003 2012-02-25 15:56:22.821
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-02-25 15:56:22.821
+!MESSAGE "Eclipse XML Editors and Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-02-25 15:56:22.821
+!MESSAGE "JavaScript Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 10005 2012-02-25 15:56:22.821
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:56:22.821
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.821
+!MESSAGE Software being installed: Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6 (org.eclipse.jdt.feature.group 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.821
+!MESSAGE Software currently installed: Eclipse Platform 3.5.2 (Eclipse Platform 3.5.2)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:56:22.821
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.822
+!MESSAGE Eclipse Java Development Tools 3.5.1.r351_v20090810-0600-7r88FEoFI0WTo6Az-1qFRHm37ChJ (org.eclipse.jdt.feature.jar 3.5.1.r351_v20090810-0600-7r88FEoFI0WTo6Az-1qFRHm37ChJ)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.822
+!MESSAGE Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFH4SRsd9dz0fZ6z-rwffZ (org.eclipse.jdt.feature.jar 3.5.2.r352_v20100108-7r88FEwFH4SRsd9dz0fZ6z-rwffZ)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.822
+!MESSAGE Eclipse Java Development Tools 3.4.2.r342_v20081217-7o7tEAoEEDWEm5HTrKn-svO4BbDI (org.eclipse.jdt.feature.jar 3.4.2.r342_v20081217-7o7tEAoEEDWEm5HTrKn-svO4BbDI)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.822
+!MESSAGE Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6 (org.eclipse.jdt.feature.jar 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:56:22.822
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.822
+!MESSAGE From: Eclipse Platform 3.5.2 (Eclipse Platform 3.5.2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.822
+!MESSAGE To: org.eclipse.jdt.feature.jar [3.5.2.r352_v20100108-7r88FEwFH4SRsd9dz0fZ6z-rwffZ]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:56:22.822
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.822
+!MESSAGE From: Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6 (org.eclipse.jdt.feature.group 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.822
+!MESSAGE To: org.eclipse.jdt.feature.jar [3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:56:22.831
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10001 2012-02-25 15:56:22.831
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10003 2012-02-25 15:56:22.832
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-02-25 15:56:22.832
+!MESSAGE "Eclipse XML Editors and Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-02-25 15:56:22.832
+!MESSAGE "JavaScript Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 10005 2012-02-25 15:56:22.832
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:56:22.832
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.832
+!MESSAGE Software being installed: Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6 (org.eclipse.jdt.feature.group 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.832
+!MESSAGE Software currently installed: Eclipse Platform 3.5.2 (Eclipse Platform 3.5.2)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:56:22.832
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.832
+!MESSAGE Eclipse Java Development Tools 3.5.1.r351_v20090810-0600-7r88FEoFI0WTo6Az-1qFRHm37ChJ (org.eclipse.jdt.feature.jar 3.5.1.r351_v20090810-0600-7r88FEoFI0WTo6Az-1qFRHm37ChJ)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.832
+!MESSAGE Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFH4SRsd9dz0fZ6z-rwffZ (org.eclipse.jdt.feature.jar 3.5.2.r352_v20100108-7r88FEwFH4SRsd9dz0fZ6z-rwffZ)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.832
+!MESSAGE Eclipse Java Development Tools 3.4.2.r342_v20081217-7o7tEAoEEDWEm5HTrKn-svO4BbDI (org.eclipse.jdt.feature.jar 3.4.2.r342_v20081217-7o7tEAoEEDWEm5HTrKn-svO4BbDI)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.832
+!MESSAGE Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6 (org.eclipse.jdt.feature.jar 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:56:22.832
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.832
+!MESSAGE From: Eclipse Platform 3.5.2 (Eclipse Platform 3.5.2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.833
+!MESSAGE To: org.eclipse.jdt.feature.jar [3.5.2.r352_v20100108-7r88FEwFH4SRsd9dz0fZ6z-rwffZ]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:56:22.833
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.833
+!MESSAGE From: Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6 (org.eclipse.jdt.feature.group 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:56:22.833
+!MESSAGE To: org.eclipse.jdt.feature.jar [3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:57:59.116
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10001 2012-02-25 15:57:59.116
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10003 2012-02-25 15:57:59.116
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-02-25 15:57:59.116
+!MESSAGE "Eclipse XML Editors and Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-02-25 15:57:59.116
+!MESSAGE "JavaScript Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 10005 2012-02-25 15:57:59.116
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:57:59.116
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.116
+!MESSAGE Software being installed: Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6 (org.eclipse.jdt.feature.group 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.116
+!MESSAGE Software currently installed: Eclipse Platform 3.5.2 (Eclipse Platform 3.5.2)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:57:59.116
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.116
+!MESSAGE Eclipse Java Development Tools 3.5.1.r351_v20090810-0600-7r88FEoFI0WTo6Az-1qFRHm37ChJ (org.eclipse.jdt.feature.jar 3.5.1.r351_v20090810-0600-7r88FEoFI0WTo6Az-1qFRHm37ChJ)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.116
+!MESSAGE Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFH4SRsd9dz0fZ6z-rwffZ (org.eclipse.jdt.feature.jar 3.5.2.r352_v20100108-7r88FEwFH4SRsd9dz0fZ6z-rwffZ)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.116
+!MESSAGE Eclipse Java Development Tools 3.4.2.r342_v20081217-7o7tEAoEEDWEm5HTrKn-svO4BbDI (org.eclipse.jdt.feature.jar 3.4.2.r342_v20081217-7o7tEAoEEDWEm5HTrKn-svO4BbDI)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.116
+!MESSAGE Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6 (org.eclipse.jdt.feature.jar 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:57:59.116
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.116
+!MESSAGE From: Eclipse Platform 3.5.2 (Eclipse Platform 3.5.2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.116
+!MESSAGE To: org.eclipse.jdt.feature.jar [3.5.2.r352_v20100108-7r88FEwFH4SRsd9dz0fZ6z-rwffZ]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:57:59.116
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.116
+!MESSAGE From: Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6 (org.eclipse.jdt.feature.group 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.116
+!MESSAGE To: org.eclipse.jdt.feature.jar [3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6]
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-02-25 15:57:59.120
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10001 2012-02-25 15:57:59.120
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10003 2012-02-25 15:57:59.120
+!MESSAGE "Eclipse Java Development Tools" is already installed, so an update will be performed instead.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-02-25 15:57:59.120
+!MESSAGE "Eclipse XML Editors and Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-02-25 15:57:59.120
+!MESSAGE "JavaScript Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 10005 2012-02-25 15:57:59.120
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
+!SUBENTRY 1 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:57:59.120
+!MESSAGE Cannot complete the install because of a conflicting dependency.
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.121
+!MESSAGE Software being installed: Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6 (org.eclipse.jdt.feature.group 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.121
+!MESSAGE Software currently installed: Eclipse Platform 3.5.2 (Eclipse Platform 3.5.2)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:57:59.121
+!MESSAGE Only one of the following can be installed at once: 
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.121
+!MESSAGE Eclipse Java Development Tools 3.5.1.r351_v20090810-0600-7r88FEoFI0WTo6Az-1qFRHm37ChJ (org.eclipse.jdt.feature.jar 3.5.1.r351_v20090810-0600-7r88FEoFI0WTo6Az-1qFRHm37ChJ)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.121
+!MESSAGE Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFH4SRsd9dz0fZ6z-rwffZ (org.eclipse.jdt.feature.jar 3.5.2.r352_v20100108-7r88FEwFH4SRsd9dz0fZ6z-rwffZ)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.121
+!MESSAGE Eclipse Java Development Tools 3.4.2.r342_v20081217-7o7tEAoEEDWEm5HTrKn-svO4BbDI (org.eclipse.jdt.feature.jar 3.4.2.r342_v20081217-7o7tEAoEEDWEm5HTrKn-svO4BbDI)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.121
+!MESSAGE Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6 (org.eclipse.jdt.feature.jar 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6)
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:57:59.121
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.121
+!MESSAGE From: Eclipse Platform 3.5.2 (Eclipse Platform 3.5.2)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.121
+!MESSAGE To: org.eclipse.jdt.feature.jar [3.5.2.r352_v20100108-7r88FEwFH4SRsd9dz0fZ6z-rwffZ]
+!SUBENTRY 2 org.eclipse.equinox.p2.director 4 1 2012-02-25 15:57:59.121
+!MESSAGE Cannot satisfy dependency:
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.121
+!MESSAGE From: Eclipse Java Development Tools 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6 (org.eclipse.jdt.feature.group 3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6)
+!SUBENTRY 3 org.eclipse.equinox.p2.director 4 0 2012-02-25 15:57:59.121
+!MESSAGE To: org.eclipse.jdt.feature.jar [3.5.2.r352_v20100108-7r88FEwFI0WTuoBl0iaG0tyhfZH6]
+!SESSION 2012-02-25 16:01:19.731 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2012-02-25 16:01:22.381
+!MESSAGE Unable to create editor ID org.eclipse.php.editor: No editor descriptor for id org.eclipse.php.editor
+!STACK 1
+org.eclipse.ui.PartInitException: No editor descriptor for id org.eclipse.php.editor
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:598)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SUBENTRY 1 org.eclipse.ui 4 0 2012-02-25 16:01:22.381
+!MESSAGE No editor descriptor for id org.eclipse.php.editor
+
+!ENTRY org.eclipse.ui 2 2 2012-02-25 16:01:22.541
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@31d5e2 from part: org.eclipse.ui.internal.ErrorEditorPart@31d5e2
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:117)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:684)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.jface 2 0 2012-02-25 16:01:23.319
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-25 16:01:23.319
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-02-25 16:01:23.319
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-03-17 16:55:59.868 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2012-03-17 16:56:07.831
+!MESSAGE Unable to create editor ID org.eclipse.php.editor: No editor descriptor for id org.eclipse.php.editor
+!STACK 1
+org.eclipse.ui.PartInitException: No editor descriptor for id org.eclipse.php.editor
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:598)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SUBENTRY 1 org.eclipse.ui 4 0 2012-03-17 16:56:07.832
+!MESSAGE No editor descriptor for id org.eclipse.php.editor
+
+!ENTRY org.eclipse.ui 2 2 2012-03-17 16:56:08.166
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@19f9c7a from part: org.eclipse.ui.internal.ErrorEditorPart@19f9c7a
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:117)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:684)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.jface 2 0 2012-03-17 16:57:22.728
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-03-17 16:57:22.728
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-03-17 16:57:22.728
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-03-17 17:11:12.574 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2012-03-17 17:11:19.032
+!MESSAGE Unable to create editor ID org.eclipse.php.editor: No editor descriptor for id org.eclipse.php.editor
+!STACK 1
+org.eclipse.ui.PartInitException: No editor descriptor for id org.eclipse.php.editor
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:598)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SUBENTRY 1 org.eclipse.ui 4 0 2012-03-17 17:11:19.032
+!MESSAGE No editor descriptor for id org.eclipse.php.editor
+
+!ENTRY org.eclipse.ui 2 2 2012-03-17 17:11:19.081
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@148ab5c from part: org.eclipse.ui.internal.ErrorEditorPart@148ab5c
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:117)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:684)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.jface 2 0 2012-03-17 17:11:19.772
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-03-17 17:11:19.772
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-03-17 17:11:19.772
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-05-04 20:04:46.692 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.ui 4 0 2012-05-04 20:04:59.988
+!MESSAGE Unable to create editor ID org.eclipse.php.editor: No editor descriptor for id org.eclipse.php.editor
+!STACK 1
+org.eclipse.ui.PartInitException: No editor descriptor for id org.eclipse.php.editor
+	at org.eclipse.ui.internal.EditorReference.createPartHelper(EditorReference.java:598)
+	at org.eclipse.ui.internal.EditorReference.createPart(EditorReference.java:462)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:595)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SUBENTRY 1 org.eclipse.ui 4 0 2012-05-04 20:04:59.989
+!MESSAGE No editor descriptor for id org.eclipse.php.editor
+
+!ENTRY org.eclipse.ui 2 2 2012-05-04 20:05:00.133
+!MESSAGE Ignored attempt to add saveable that was already registered
+!STACK 0
+org.eclipse.core.runtime.AssertionFailedException: unknown saveable: org.eclipse.ui.internal.DefaultSaveable@dd7786 from part: org.eclipse.ui.internal.ErrorEditorPart@dd7786
+	at org.eclipse.ui.internal.SaveablesList.logWarning(SaveablesList.java:187)
+	at org.eclipse.ui.internal.SaveablesList.addModel(SaveablesList.java:117)
+	at org.eclipse.ui.internal.SaveablesList.addModels(SaveablesList.java:289)
+	at org.eclipse.ui.internal.SaveablesList.postOpen(SaveablesList.java:684)
+	at org.eclipse.ui.internal.PartList.partOpened(PartList.java:234)
+	at org.eclipse.ui.internal.PartList.access$0(PartList.java:210)
+	at org.eclipse.ui.internal.PartList$1.propertyChanged(PartList.java:40)
+	at org.eclipse.ui.internal.WorkbenchPartReference.fireInternalPropertyChange(WorkbenchPartReference.java:375)
+	at org.eclipse.ui.internal.WorkbenchPartReference.getPart(WorkbenchPartReference.java:610)
+	at org.eclipse.ui.internal.EditorAreaHelper.setVisibleEditor(EditorAreaHelper.java:271)
+	at org.eclipse.ui.internal.EditorManager.setVisibleEditor(EditorManager.java:1417)
+	at org.eclipse.ui.internal.EditorManager$5.runWithException(EditorManager.java:942)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.application.WorkbenchAdvisor.openWindows(WorkbenchAdvisor.java:803)
+	at org.eclipse.ui.internal.Workbench$28.runWithException(Workbench.java:1384)
+	at org.eclipse.ui.internal.StartupThreading$StartupRunnable.run(StartupThreading.java:31)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:134)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:3468)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3115)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2316)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:113)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:616)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.eclipse.jface 2 0 2012-05-04 20:05:01.275
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-05-04 20:05:01.275
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-05-04 20:05:01.275
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-07-24 00:17:21.444 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2012-07-24 00:17:31.751
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-07-24 00:17:31.752
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-07-24 00:17:31.752
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-07-24 00:18:03.284
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2012-07-24 00:18:03.284
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:18:03.284
+!MESSAGE "PHP Development Tools (PDT) Runtime Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:18:03.285
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:18:03.285
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-07-24 00:18:03.285
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2012-07-24 00:18:03.285
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:18:03.285
+!MESSAGE "PHP Development Tools (PDT) Runtime Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:18:03.285
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:18:03.285
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-07-24 00:18:03.288
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2012-07-24 00:18:03.288
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:18:03.288
+!MESSAGE "PHP Development Tools (PDT) Runtime Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:18:03.288
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:18:03.288
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because a newer version is already installed. 
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-07-24 00:18:03.330
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2012-07-24 00:18:03.330
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:18:03.330
+!MESSAGE "PHP Development Tools (PDT) Runtime Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:18:03.330
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:18:03.330
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because a newer version is already installed. 
+!SESSION 2012-07-24 00:21:00.163 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2012-07-24 00:21:06.916
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-07-24 00:21:06.916
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-07-24 00:21:06.916
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SESSION 2012-07-24 00:23:28.440 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2012-07-24 00:23:32.989
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-07-24 00:23:32.989
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-07-24 00:23:32.989
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.ui 4 4 2012-07-24 00:24:27.145
+!MESSAGE Invalid preference page path: JavaScript
+
+!ENTRY org.eclipse.equinox.p2.ui 2 0 2012-07-24 00:27:34.015
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10001 2012-07-24 00:27:34.015
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.015
+!MESSAGE "Eclipse Faceted Project Framework" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.015
+!MESSAGE "Eclipse Web Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.015
+!MESSAGE "Eclipse XML Editors and Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.015
+!MESSAGE "Eclipse XSL Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.015
+!MESSAGE "JavaScript Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 10005 2012-07-24 00:27:34.015
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.ui 2 0 2012-07-24 00:27:34.016
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10001 2012-07-24 00:27:34.016
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.016
+!MESSAGE "Eclipse Faceted Project Framework" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.016
+!MESSAGE "Eclipse Web Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.016
+!MESSAGE "Eclipse XML Editors and Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.016
+!MESSAGE "Eclipse XSL Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.016
+!MESSAGE "JavaScript Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 10005 2012-07-24 00:27:34.016
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.ui 2 0 2012-07-24 00:27:34.188
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10001 2012-07-24 00:27:34.188
+!MESSAGE Your original request has been modified.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.188
+!MESSAGE "Eclipse Faceted Project Framework" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.188
+!MESSAGE "Eclipse Web Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.188
+!MESSAGE "Eclipse XML Editors and Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.188
+!MESSAGE "Eclipse XSL Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 1 10006 2012-07-24 00:27:34.188
+!MESSAGE "JavaScript Developer Tools" is already present because other installed software requires it.  It will be added to the installed software list.
+!SUBENTRY 2 org.eclipse.equinox.p2.ui 2 10005 2012-07-24 00:27:34.188
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
+!SESSION 2012-07-24 00:37:43.155 -----------------------------------------------
+eclipse.buildId=M20100211-1343
+java.version=1.6.0_18
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=linux, ARCH=x86, WS=gtk, NL=es_AR
+Command-line arguments:  -os linux -ws gtk -arch x86
+
+!ENTRY org.eclipse.jface 2 0 2012-07-24 00:38:19.126
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-07-24 00:38:19.126
+!MESSAGE A conflict occurred for ALT+SHIFT+D U:
+Binding(ALT+SHIFT+D U,
+	ParameterizedCommand(Command(org.rubypeople.rdt.testunit.testunitShortcut.debug,Debug Test::Unit Test,
+		Debug Test::Unit Test,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D U,
+	ParameterizedCommand(Command(org.eclipse.rap.ui.launch.RAPJUnitLaunchShortcut.debug,Debug RAP JUnit Test,
+		Debug RAP JUnit Test,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-07-24 00:38:19.126
+!MESSAGE A conflict occurred for ALT+SHIFT+D R:
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.debug,Debug Ruby Application,
+		Debug Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.debug,Debug on Server,
+		Debug the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+D R,
+	ParameterizedCommand(Command(org.eclipse.rap.ui.launch.RAPLaunchShortcut.debug,Debug RAP Application,
+		Debug RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-07-24 00:38:19.126
+!MESSAGE A conflict occurred for ALT+SHIFT+X U:
+Binding(ALT+SHIFT+X U,
+	ParameterizedCommand(Command(org.rubypeople.rdt.testunit.testunitShortcut.run,Run Test::Unit Test,
+		Run Test::Unit Test,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X U,
+	ParameterizedCommand(Command(org.eclipse.rap.ui.launch.RAPJUnitLaunchShortcut.run,Run RAP JUnit Test,
+		Run RAP JUnit Test,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+!SUBENTRY 1 org.eclipse.jface 2 0 2012-07-24 00:38:19.127
+!MESSAGE A conflict occurred for ALT+SHIFT+X R:
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.rubypeople.rdt.debug.ui.RubyShortcut.run,Run Ruby Application,
+		Run Ruby Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.wst.server.launchShortcut.run,Run on Server,
+		Run the current selection on a server,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(ALT+SHIFT+X R,
+	ParameterizedCommand(Command(org.eclipse.rap.ui.launch.RAPLaunchShortcut.run,Run RAP Application,
+		Run RAP Application,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-07-24 00:40:13.402
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2012-07-24 00:40:13.402
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10005 2012-07-24 00:40:13.402
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-07-24 00:40:13.402
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2012-07-24 00:40:13.402
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10005 2012-07-24 00:40:13.402
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-07-24 00:40:13.405
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2012-07-24 00:40:13.405
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10005 2012-07-24 00:40:13.405
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-07-24 00:40:13.430
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2012-07-24 00:40:13.430
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10005 2012-07-24 00:40:13.430
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-07-24 00:40:36.231
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2012-07-24 00:40:36.231
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:40:36.231
+!MESSAGE "PHP Development Tools (PDT) Runtime Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:40:36.231
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:40:36.231
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10005 2012-07-24 00:40:36.231
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
+
+!ENTRY org.eclipse.equinox.p2.ui 4 0 2012-07-24 00:40:36.236
+!MESSAGE Operation details
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 4 10050 2012-07-24 00:40:36.236
+!MESSAGE Cannot complete the request.  See the error log for details.
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:40:36.236
+!MESSAGE "PHP Development Tools (PDT) Runtime Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:40:36.236
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10004 2012-07-24 00:40:36.236
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because a newer version is already installed. 
+!SUBENTRY 1 org.eclipse.equinox.p2.ui 2 10005 2012-07-24 00:40:36.236
+!MESSAGE "PHP Development Tools (PDT) SDK Feature" will be ignored because it is already installed.
