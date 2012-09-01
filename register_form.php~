@@ -1,0 +1,10 @@
+<?php
+
+require_once('Output.php');
+
+do_html_header('Registrarme');
+
+
+do_html_footer();
+
+?>

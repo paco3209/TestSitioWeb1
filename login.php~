@@ -1,0 +1,16 @@
+<?php
+
+
+
+require_once('Output.php');
+
+
+do_html_header('Login');
+
+display_login_form();
+
+do_html_footer();
+
+
+
+?>
