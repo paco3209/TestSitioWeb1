@@ -1,5 +1,5 @@
 <?php
-//pruebgit
+//pruebgitsisis
 
 require_once('PageNavigator.php');
 
@@ -165,8 +165,18 @@ Asi funciona
 		?>
 		<a href="" ><?php echo $row['id_usuario']; ?></a>
 		</p>
-				
-		<p id="descripcion"> <?php echo $row['descripcion']; ?></p>
+		
+<div id="imagen_categoria"><img src="<?php echo 'imagenesCategorias/'.$row['imagen_categoria']; ?>" id="imagen_noticia" alt="" ></div>				
+						
+		<p id="descripcion"> <?php 
+		$texto = $row['descripcion'];
+				if (strlen($texto) > 300){
+						echo substr($texto,0,300) . "<a href='" . $row['link_noticia'] . "' >Leer Mas...</a>" ;
+				else {
+					echo $texto . "<a href='" . $row['link_noticia'] . "' >Leer Mas...</a>" ;		
+					}
+		  ?>
+		</p>
 <br>		
       	
 	
@@ -179,28 +189,29 @@ Asi funciona
 	<p class="votos">Categoria: <?php echo $row['categoria']; ?> |</p>
 	
 	<p class="votos"><a id="comentario" href="Comentarios_noticia.php?id_not=<?php echo $row['id_noticia']; ?>" >Ver Comentarios | </a></p>
-<p class='votes_count' id='votes_count<?php echo $row['id_noticia']; ?>'><?php echo $row['votos']." votos"; ?></p>	
-	</div>
+<p class='votes_count' id='votes_count<?php echo $row['id_noticia']; ?>'><?php echo $row['votos']." votos"; ?> | </p>	
+	
 
 <?php
 
 if (isset($_SESSION['valid_user']))
 {
 ?>
+<div id="opcion_voto">
 <span class='vote_buttons' id='vote_buttons<?php echo $row['id_noticia']; ?>'>  
- <a href='javascript:;' class='vote_up' id='<?php echo $row['id_noticia']; ?>'></a> 
+ <a href='javascript:;' class='vote_up' id='<?php echo $row['id_noticia']; ?>'>me gusta</a> 
   </span>  
 <span class='vote_buttons' id='vote_buttons<?php echo $row['id_noticia']; ?>'>  
- <a href='javascript:;' class='vote_down' id='<?php echo $row['id_noticia']; ?>'></a> 
+ <a href='javascript:;' class='vote_down' id='<?php echo $row['id_noticia']; ?>'>no me gusta</a> 
   </span>    
-
+</div>
 <?php
 }
 
 
 ?>
 
-
+</div>
 
 	
 <div class="clear"></div>
