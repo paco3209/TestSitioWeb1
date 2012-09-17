@@ -158,24 +158,28 @@ Asi funciona
 <a id="url" href="<?php echo $row['link_noticia']; ?>" >(<?php echo $row['link_noticia']; ?>)</a>
 </div>
 <div id="resto_noticia">		
-		<p id="fecha">Enviado el: 
+		<p id="fecha">Enviado el 
 		<?php
-		$fecha = date('c') - date('c', strtotime($row['Fecha']) ) ;
-		echo $fecha . " por " ; 
+		$fecha = strtotime($row['Fecha']) ;
+		echo date('d-m-Y \a \l\a\s G:i') . " por " ; 
 		?>
 		<a href="" ><?php echo $row['id_usuario']; ?></a>
 		</p>
-		
+<!--
 <div id="imagen_categoria"><img src="<?php echo 'imagenesCategorias/'.$row['imagen_categoria']; ?>" id="imagen_noticia" alt="" ></div>				
 						
 		<p id="descripcion"> <?php echo $row['descripcion']; ?>
 		</p>
+		
+-->	
 <br>		
       	
 	
 	
 	
-	</div><br>
+	</div>
+
+
 	<div id="footer_noticia">	
 <!--	<p class="votos"> <?php echo $row['votos'];?> Puntos |</p> -->
  
@@ -264,7 +268,7 @@ function presentacion_navegador() {
 <li><a class="active" href="inicio.php" >inicio</a></li>
 <!-- <li><a href="#">categorias</a>
 <ul class="active">
-Asi funciona el menu
+Asi funciona el menu	
 <li><a href="#"> Prueba</a></li>
 
 <?php
@@ -296,8 +300,9 @@ function formulario_ingreso_noticia() {
 
 
 
-<div class="grid_8" id="entry">
-<hr id="separador">
+<div class="grid_12" id="entry">
+<div id="formulario_ingreso_noticia">
+
 <h1 id="nueva_noticia">Agregar Nueva Noticia</h1>
 
 
@@ -357,7 +362,7 @@ if(mysql_num_rows($b)>0) {
 
 
 
-
+</div>
 </div>
 
 

@@ -89,7 +89,7 @@ color: #3271CB;
 	margin-bottom: 20px;
 	font-family: 	Arial,Helvetica, sans-serif;
 	text-rendering: optimizeLegibility;
-	background-color: #4C567A;
+	
 	border-top-left-radius: 10px;
 	padding-left: : 10px;
 	padding-right: 10px;
@@ -101,14 +101,14 @@ color: #3271CB;
 
 #div_titulo{
 	
-	background-color: #4C567A;
+	background-color: #898989;
 	border-top-left-radius: 10px;
 	padding-left: 10px;
 	padding-top: 10px;
 	margin-top: 2px;
 	width: 600px;
 	text-decoration: none;
-	height: auto;
+	
 }	
 
 
@@ -120,10 +120,7 @@ color: #3271CB;
 	color: red;
 }
 
-#entry{
-	margin-left: 200px;
-	
-}
+
 
 #prueba{
 	height: 30px;
@@ -528,15 +525,15 @@ border-radius: 6px;
 	margin:  0px;
 }
 
-#login_form, #comentarioOK{
-	height: 400px;
+#login_form, #comentarioOK, #entry{
+	height: 500px;
 	padding: 5px;
 	
 	position: relative;
 	background-color: #FFFFFF;
 }
 
-#formulario {
+#formulario  {
 	position: absolute;	
 	top: 20%;
 	left: 25%;
@@ -549,7 +546,18 @@ border-radius: 6px;
 	padding: 15px;
 }
 
-
+#formulario_ingreso_noticia{
+	position: absolute;	
+	
+	left: 20%;
+	width: 620px;
+	border: 1px solid #aaaaaa;
+	border-top-left-radius: 4px;
+	border-top-right-radius: 4px;
+	border-bottom-right-radius: 4px;
+	border-bottom-left-radius: 4px;
+	padding: 10px;
+}
 #categoria {
 	background-color: #0a9600;
 	color: #FFFFFF;
@@ -769,4 +777,8 @@ margin-right: auto;
 
 #opcion_voto {
 	width: auto;
+}
+
+#resto_noticia{
+	height: 15px;
 }
