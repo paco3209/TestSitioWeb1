@@ -148,9 +148,34 @@ if(mysql_num_rows($r)>0): //table is non-empty
 
 Asi funciona
 -->
+<?php
+	if (substr($row['link_noticia'],-3) == "jpg" || substr($row['link_noticia'],-3) == "gif") {
+?>
+<div id="imagen">
+<img id="imagen_noticia" src="<?php echo $row['link_noticia']; ?>" alt="" >
+</div>		
+
+<div id="div_titulo_imagen">
+<a id="titulo" href="<?php echo $row['link_noticia']; ?>"> <?php echo $row['titulo']; ?> </a><br>
+</div>
+<div id="div_link_imagen">
+<a id="url" href="<?php echo $row['link_noticia']; ?>" >(<?php echo $row['link_noticia']; ?>)</a>
+</div>
+<div id="resto_noticia_imagen">		
+		<p id="fecha">Enviado el 
+		<?php
+		$fecha = strtotime($row['Fecha']) ;
+		echo date('d-m-Y \a \l\a\s G:i') . " por " ; 
+		?>
+		<a href="" ><?php echo $row['id_usuario']; ?></a>
+		</p>
+</div>
 
 
-
+<?php
+}
+else {
+?>
 <div id="div_titulo">
 <a id="titulo" href="<?php echo $row['link_noticia']; ?>"> <?php echo $row['titulo']; ?> </a><br>
 </div>
@@ -209,7 +234,9 @@ if (isset($_SESSION['valid_user']))
 ?>
 
 </div>
-
+<?php
+}
+?>
 	
 <div class="clear"></div>
 	
@@ -268,7 +295,7 @@ function presentacion_navegador() {
 <li><a class="active" href="inicio.php" >inicio</a></li>
 <!-- <li><a href="#">categorias</a>
 <ul class="active">
-Asi funciona el menu
+Asi funciona el menu	
 <li><a href="#"> Prueba</a></li>
 
 <?php

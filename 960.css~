@@ -111,6 +111,18 @@ color: #3271CB;
 	
 }	
 
+#div_titulo_imagen{
+	
+	background-color: #898989;
+	border-top-left-radius: 10px;
+	padding-left: 10px;
+	padding-top: 10px;
+	margin-top: 2px;
+	width: 450px;
+	text-decoration: none;
+	
+}	
+
 
 #noticia_individual #comentarios, #fecha, .votes_count, .vote_up, .vote_down{
 	font-size: 10px;
@@ -533,10 +545,6 @@ border-radius: 6px;
 	background-color: #FFFFFF;
 }
 
-
-
-
-
 #formulario  {
 	position: absolute;	
 	top: 20%;
@@ -664,6 +672,14 @@ border-radius: 6px;
 	padding-left: 10px;
 }
 
+#div_link_imagen{
+	height: auto;
+	background-color: #E1E1E1;
+	width: 450px;
+	padding-left: 10px;
+}
+
+
 a.tooltip {  position: relative;  }a.tooltip span {  display: none;}a.tooltip:hover {  font-size: 100%; /* Fixes bug in IE5.x/Win */}a.tooltip:hover span {  display:block;  position:absolute;  padding: 0.2em 0.6em;  border:1px solid #000000;  background-color:#ffed8a;  color:#000000;
   text-decoration: none;}
 
@@ -785,4 +801,16 @@ margin-right: auto;
 
 #resto_noticia{
 	height: 15px;
+}
+
+#imagen {
+	height: 100px;
+	width: 100px;
+	float: right;
+}
+
+#imagen_noticia{
+	height: 90px;
+	width: 90px;
+	float: right;
 }

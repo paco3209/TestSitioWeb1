@@ -148,15 +148,35 @@ if(mysql_num_rows($r)>0): //table is non-empty
 
 Asi funciona
 -->
+<?php
+	if (substr($row['link_noticia'],-3) == "jpg" || substr($row['link_noticia'],-3) == "gif") {
+?>
+<div id="imagen">
+<img id="imagen_noticia" src="<?php echo $row['link_noticia']; ?>" alt="" >
+</div>		
+
+<div id="div_titulo_imagen">
+<a id="titulo" href="<?php echo $row['link_noticia']; ?>"> <?php echo $row['titulo']; ?> </a><br>
+</div>
+<div id="div_link_imagen">
+<a id="url" href="<?php echo $row['link_noticia']; ?>" >(<?php echo $row['link_noticia']; ?>)</a>
+</div>
 
 
-
+<?php
+}
+else {
+?>
 <div id="div_titulo">
 <a id="titulo" href="<?php echo $row['link_noticia']; ?>"> <?php echo $row['titulo']; ?> </a><br>
 </div>
 <div id="div_link">
 <a id="url" href="<?php echo $row['link_noticia']; ?>" >(<?php echo $row['link_noticia']; ?>)</a>
 </div>
+<?php
+}
+?>
+
 <div id="resto_noticia">		
 		<p id="fecha">Enviado el 
 		<?php
