@@ -31,7 +31,8 @@ if ($usuario && $contrasena)
 do_html_header('Home');
 check_valid_user();
 // get the bookmarks this user has saved
-echo '<a href="inicio.php">Ir a Pagina Principal</a>';
-do_html_footer();
+/*echo '<a href="inicio.php">Ir a Pagina Principal</a>';
+echo '</div>';
+do_html_footer();*/
 ?>
 

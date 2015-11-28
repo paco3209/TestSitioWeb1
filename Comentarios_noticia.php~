@@ -94,7 +94,7 @@ if(mysql_num_rows($d)>0): //table is non-empty
  echo $row2['descripcion_comentario'] ; ?></p>
 </div>
 <div class="clear"></div>
-
+</div>
 <?php
 
 endwhile;

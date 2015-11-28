@@ -10,6 +10,8 @@ mail($mail,"Prueba","mensaje");
 include('config.php');
 include('Output.php');
 
+if ($usuario & $pass1 & $pass2 & $mail) {
+
 if($pass1 != $pass2) {
 	header('Location: register_form.php');
 }
@@ -36,5 +38,6 @@ else {
 		do_html_footer();		
 		} 
 }
+	}
 
 ?>

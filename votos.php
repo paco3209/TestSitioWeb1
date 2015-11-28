@@ -8,7 +8,7 @@ require_once('conexion_db.php');
 
 $id = $_POST['id'];
 $action = $_POST['action'];
-
+$usuario = $_POST['usuario'];
 
 
 function Obtener_votos($id) {
@@ -46,7 +46,7 @@ $cur_votes = Obtener_votos($id);
 
 if($action == 'vote_up')
 {
-
+//verifica si usuario ya voto la noticia
 
 
 
@@ -56,8 +56,8 @@ if($action == 'vote_up')
  $q = "UPDATE Noticias SET votos = $votes_up WHERE id_noticia = $id";
 $r = mysql_query($q);
 
-
-
+$c = "insert into voto (usuario, id_noticia, fecha_hora) values ('$usuario' ,$id ,current_timestamp())";
+$query_voto = mysql_query($c);
 if($r) //voting done
  {
  $effectiveVote = getEffectiveVotes($id);
@@ -74,7 +74,8 @@ if($action == 'vote_down')
  $votes_down = $cur_votes[0]-1;
  $q = "UPDATE Noticias SET votos = $votes_down WHERE id_noticia = $id";
 $r = mysql_query($q);
-
+$c = "insert into voto (usuario, id_noticia, fecha_hora) values ('$usuario' ,$id ,current_timestamp())";
+$query_voto = mysql_query($c);
 
 
 if($r) //voting done

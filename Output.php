@@ -20,12 +20,19 @@ function do_html_header($title)
 <link rel="stylesheet" type="text/css" media="all" href="code/css/960.css" />
 <link rel="stylesheet" type="text/css" media="all" href="960.css" />
 
+<!--Libreria Jquery validacion formulario -->
+<script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.min.js"></script>
+<script src="ValidacionFormulario.js" type="text/javascript" charset="utf-8"></script>
+
 <script src="jquery-1.4.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="jquery.easing.1.3.js" type="text/javascript" charset="utf-8"></script>
 <script src="jquery.hoverIntent.js" type="text/javascript" charset="utf-8"></script>
 <script src="jquery.scrollTo.js" type="text/javascript" charset="utf-8"></script> 
  <script type="text/javascript" src="script.js"></script>
-<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>    
+
+ 
+<link href='http://fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Roboto+Condensed' rel='stylesheet' type='text/css'>    
 </head>
   <body>
 <div id="top">
@@ -33,13 +40,13 @@ function do_html_header($title)
 
 <div class="grid_12" id="logo">
 
-   <a href="inicio.php"><img src="logo2.gif" alt="" width="120" height="70" ></a> 
+   <a href="index.php"><img src="logo2.gif" alt="" width="120" height="45" ></a> 
 
 <?php
 if (isset($_SESSION['valid_user']))
 {
 	echo '<div id="login_div" class="grid_5">';
-	echo '<p id="logueousuario">Estas logueado como: '.$_SESSION['valid_user'];
+	echo '<p id="logueousuario"  class="' . $_SESSION['valid_user'] .'"" >Estas logueado como: '.$_SESSION['valid_user'];
 	echo '<a href="cerrar_sesion.php" id="cerrar_sesion">Cerrar Sesion</a>';
 	echo '</div>';
 
@@ -144,7 +151,7 @@ if(mysql_num_rows($r)>0): //table is non-empty
 <div id="noticia_individual">
 
 <!--
-<a href="inicio.php"><img src="grayarrow.gif" alt="" ></a>
+<a href="index.php"><img src="grayarrow.gif" alt="" ></a>
 
 Asi funciona
 -->
@@ -178,10 +185,10 @@ else {
 ?>
 
 <div id="resto_noticia">		
-		<p id="fecha">Enviado el 
+		<p id="fecha">Enviado hace
 		<?php
-		$fecha = strtotime($row['Fecha']) ;
-		echo date('d-m-Y \a \l\a\s G:i') . " por " ; 
+		$fecha =  strtotime($row['Fecha']);
+		echo tiempo_transcurrido($fecha) . " por " ; 
 		?>
 		<a href="" ><?php echo $row['id_usuario']; ?></a>
 		</p>
@@ -200,12 +207,16 @@ else {
 	</div>
 
 
-	<div id="footer_noticia">	
+<div id="footer_noticia">	
 <!--	<p class="votos"> <?php echo $row['votos'];?> Puntos |</p> -->
  
-	<p class="votos">Categoria: <?php echo $row['categoria']; ?> |</p>
+<p class="votos">Categoria: <?php echo $row['categoria']; ?> |</p>	
 	
-	<p class="votos"><a id="comentario" href="Comentarios_noticia.php?id_not=<?php echo $row['id_noticia']; ?>" >Ver Comentarios | </a></p>
+	
+	
+<p class="votos"><a id="comentario" href="Comentarios_noticia.php?id_not=<?php echo $row['id_noticia']; ?>" >Comentarios | </a></p>
+ 
+ 
 <p class='votes_count' id='votes_count<?php echo $row['id_noticia']; ?>'><?php echo $row['votos']." votos | "; ?> </p>	
 	
 
@@ -213,6 +224,12 @@ else {
 
 if (isset($_SESSION['valid_user']))
 {
+	$consulta_votos = "Select 1 from voto where id_noticia =" . $row['id_noticia'] . " and usuario ='" . $_SESSION['valid_user'] . "'";
+	$f = mysql_query($consulta_votos);
+	if(mysql_num_rows($f) == 0){
+	
+	
+	
 ?>
 <div>
 <span class='vote_buttons' id='vote_buttons<?php echo $row['id_noticia']; ?>'>  
@@ -223,6 +240,7 @@ if (isset($_SESSION['valid_user']))
   </span>    
 </div>
 <?php
+	}
 }
 
 
@@ -262,7 +280,41 @@ if($numpages>1){
 <?php
 }
 
+function tiempo_transcurrido($ptime) {
+$etime = time() - $ptime;
 
+if ($etime < 1) {
+    return '0 segundos';
+}
+
+$a = array( 12 * 30 * 24 * 60 * 60  =>  'a&ntildeo',
+            30 * 24 * 60 * 60       =>  'mes',
+            24 * 60 * 60            =>  'dia',
+            60 * 60                 =>  'hora',
+            60                      =>  'minuto',
+            1                       =>  'segundo'
+            );
+
+foreach ($a as $secs => $str) {
+    $d = $etime / $secs;
+    if ($d >= 1) {
+        $r = round($d);
+        
+        if($r > 1){
+        	if($str == 'mes'){
+        		return $r . ' ' . $str . 'es';
+        	}
+        	else{
+        		return $r . ' ' . $str . 's';
+        	}
+         }
+         else{
+         	return $r . ' ' . $str. ' ';
+         }
+         
+    }
+}
+}
 
 function  presentacion_publicidad() {
 	
@@ -285,7 +337,7 @@ function presentacion_navegador() {
 
 <div class="grid_12" id="main-menu">
 <ul id="menu">
-<li><a class="active" href="inicio.php" >inicio</a></li>
+<li><a href="index.php" class='active' >populares</a></li>
 <!-- <li><a href="#">categorias</a>
 <ul class="active">
 Asi funciona el menu	
@@ -405,9 +457,10 @@ function display_login_form()
 <div id="login_form" class="grid_12" >  
 <div id="formulario">  
   <a href='register_form.php' id="registrarme">Registrarme</a>
-  <form method='post' action='member.php'>
+  <form method='post' action='member.php' id="register-form" novalidate="novalidate">
   <table>
-<tr><td><h2 id="titulo_nueva_noticia">Usuario:</h2></td></tr>
+  
+<tr><td> <label for="username"> <h2 id="titulo_nueva_noticia">Usuario:</h2></td></tr>
    <tr>
         <td><input type='text' name='username' id="login_usuario" class="clear"></td>
         </tr>
@@ -491,15 +544,17 @@ function check_valid_user()
 {
   if (isset($_SESSION['valid_user']))
   {
-	   echo '<div id="login_form">';
+	   /*echo '<div id="login_form">';
       echo 'Bienvenido '.$_SESSION['valid_user'].'.';
-      
+      */
+      header('Location: index.php');
+      exit();
   }
   else
   {
      // they are not logged in 
    
-     echo 'You are not logged in.<br />';
+     echo 'El usuario o contrase&ntildea es erroneo.<br />';
      echo '<a href="login.php">Login</a>';
      do_html_footer();
      exit;

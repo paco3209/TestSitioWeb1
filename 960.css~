@@ -1,16 +1,18 @@
-
+	
 body {
 	margin: 0;
-	background-color: #E1E1E1;	
+	background-color: #FFFFFF;
+			height: 100%;
 }
 
 #principal{
 	background-color: #FFFFFF;
+	height: 100%;
 }
 #logo {
 background-color: #444444;
 width: 100%;
-height: 80px;
+height: 45px;
 margin-bottom: 1px;
 margin-top: 0px;		
 }
@@ -18,7 +20,7 @@ margin-top: 0px;
 #top{
 	width: 100%;
 	background-color: #444444;
-	height: 80px;
+	height: 45px;
 	position: relative;
 	top: 0;
 	left: 0;
@@ -60,16 +62,18 @@ border-bottom-color: #cccccc;
 border-bottom-style: solid;
 width: 163px;
 
+
 }
 
 #main-menu li a {
-color: #3271CB;
+color: #C8C8C8;
 text-decoration: none;
-font-size: 13px;
-font-family: TeeFranklinMedium-1","TeeFranklinMedium-2","helvetica neue",arial,sans-serif;
+font-size: 15px;
+font-family: 'Roboto Condensed', sans-serif;
+background-color: #FFFFFF;
 }
 
-#main-menu li a.active, #main-menu a:hover {
+#main-menu a:hover {
 
 color: #3271CB;
 }
@@ -78,14 +82,14 @@ color: #3271CB;
 #noticia_individual{
 	margin-bottom:  5px;
 	height: auto;
-	width: auto;
+	width: auto;act
 	margin-top: 4px;
 }
 
 #noticia_individual  #titulo{
-	font-weight: bold;
-	font-size: 14.3px;
-	color: #FFFFFF;
+	
+	font-size: 18px;
+	color: #444444;
 	margin-bottom: 20px;
 	font-family: 	Arial,Helvetica, sans-serif;
 	text-rendering: optimizeLegibility;
@@ -97,11 +101,18 @@ color: #3271CB;
 	margin-top: 2px;
 	width: 600px;
 	text-decoration: none;
+	-webkit-transition: color 400ms ease-in;
+  	-moz-transition: color 400ms ease-in;
+	 transition: color 400ms ease-in;	
+	
 }
 
+#noticia_individual  #titulo:hover{
+	color: #d63c25;
+}
 #div_titulo{
 	
-	background-color: #898989;
+
 	border-top-left-radius: 10px;
 	padding-left: 10px;
 	padding-top: 10px;
@@ -113,7 +124,7 @@ color: #3271CB;
 
 #div_titulo_imagen{
 	
-	background-color: #898989;
+	color: #444444;
 	border-top-left-radius: 10px;
 	padding-left: 10px;
 	padding-top: 10px;
@@ -379,6 +390,7 @@ color: #d12f19;
 
 #fecha{
 	font-size: 12px;
+	margin-left: 10px;
 }
 
 #descripcion{
@@ -520,21 +532,23 @@ border-radius: 6px;
 
 #footer {
 	position: relative;
-	background-color: #3e3e3e;
+	background-color: #444444;
 	color: #aaaaaa;
 	height: 100px;
 	margin: 0;
- 	font-family: Courgette; 
+ 	font-family: Courgette;
+ 	bottom: 0px; 
 }
 
 #footer_body{
 	width: 100%;
-	background-color: #3e3e3e;
+	background-color: #444444;
 	height: 120px;
 	position: relative;
 	top: 0;
 	left: 0;
-	margin:  0px;
+	margin:  0px auto -150px;
+	bottom: 0px;
 }
 
 #login_form, #comentarioOK, #entry{
@@ -550,12 +564,13 @@ border-radius: 6px;
 	top: 20%;
 	left: 25%;
 	width: 450px;
-	border: 1px solid #aaaaaa;
+	border: 3px solid #F1F1F1;
 	border-top-left-radius: 4px;
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
 	border-bottom-left-radius: 4px;
 	padding: 15px;
+	
 }
 
 #formulario_ingreso_noticia{
@@ -589,13 +604,13 @@ border-radius: 6px;
 	box-shadow: 0pt -2px 1px transparent inset;
 	height: 38px;
 	width:  70px;
-	padding-top: 7px;
+	padding-top: 4px;
 	padding-right: 16px;
-	padding-bottom: 7px;
+	padding-bottom: 4px;
 	padding-left: 16px;
 	text-decoration: none;
 	font-family: Courgette;
-	
+	font-size: 12px;
 }
 
 #loginLink:hover{
@@ -644,7 +659,8 @@ border-radius: 6px;
 
 #footer_noticia{
 	width: auto;
-	margin: 1px;
+	
+	margin-left: 10px;
 }
 
 #comentario{
@@ -661,45 +677,57 @@ border-radius: 6px;
 	color: #4D4D4D;
 	font-size: 11.05px;
 	text-decoration: none;
-	background-color: #E1E1E1;
 	width: 400px;
 }
 
 #div_link{
 	height: auto;
-	background-color: #E1E1E1;
+	
 	width: 600px;
 	padding-left: 10px;
 }
 
 #div_link_imagen{
 	height: auto;
-	background-color: #E1E1E1;
+	
 	width: 450px;
 	padding-left: 10px;
 }
 
 
-a.tooltip {  position: relative;  }a.tooltip span {  display: none;}a.tooltip:hover {  font-size: 100%; /* Fixes bug in IE5.x/Win */}a.tooltip:hover span {  display:block;  position:absolute;  padding: 0.2em 0.6em;  border:1px solid #000000;  background-color:#ffed8a;  color:#000000;
-  text-decoration: none;}
+a.tooltip {
+  position: relative;
+  }
 
-a.vote_up {  
+a.tooltip span {
+  display: none;
+}
+
+a.tooltip:hover {
+  font-size: 100%; /* Fixes bug in IE5.x/Win */
+}
+
+a.tooltip:hover span {
+  display:block;
+  position:absolute;
+  padding: 0.2em 0.6em;
+  border:1px solid #000000;
+  background-color:#ffed8a;
+  color:#000000;
+  text-decoration: none;
+}
+
+.vote_up,.vote_down {  
    
- height:12px;  
- width:12px;  
+ height:auto;  
+ width:auto;  
  margin-left: 4px;
- 
+ color: red; 
  
   
 }  
 
-a.vote_down {  
-   
- height:12px;  
- width:12px;  
- margin-left: 4px;
-   
-}  
+
   
 #cielo{
 		color: grey;
@@ -719,6 +747,7 @@ a.vote_down {
 #logueousuario{
 	color: #FFFFFF;
 	font-family:  Courgette;
+	font-size: 12px;
 }
 
 
@@ -814,3 +843,55 @@ margin-right: auto;
 	width: 90px;
 	float: right;
 }
+
+#vote_buttons{
+	padding: 0px;
+	margin: 0px;
+}
+
+
+#login_usuario:focus, #login_password:focus {
+	background: #fff;
+    border:1px solid #97C4DA;
+    box-shadow: 0 0 3px #ACD0E1;
+     -moz-transition: padding .25s;
+    -webkit-transition: padding .25s;
+    -o-transition: padding .25s;
+    transition: padding .25s;
+}
+
+
+
+
+.speech-bubble {
+    background-color: #f8f8f8;
+    border: 1px solid #c8c8c8;
+    border-radius: 5px;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+    position: absolute;
+}
+
+.speech-bubble .arrow {
+    border-style: solid;
+    position: absolute;
+}
+
+.bottom {
+    border-color: #c8c8c8 transparent transparent transparent;
+    border-width: 8px 8px 0px 8px;
+    bottom: -8px;
+}
+
+.bottom:after {
+    border-color: #f8f8f8 transparent transparent transparent;
+    border-style: solid;
+    border-width: 7px 7px 0px 7px;
+    bottom: 1px;
+    content: "";
+    position: absolute;
+    left: -7px;    
+}
+
+

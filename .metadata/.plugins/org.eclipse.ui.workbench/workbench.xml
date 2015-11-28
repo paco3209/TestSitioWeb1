@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="1" version="2.0">
+<workbench progressCount="4" version="2.0">
 <workbenchAdvisor/>
 <window height="740" maximized="true" width="1024" x="0" y="1">
 <fastViewData fastViewLocation="1024"/>
-<intro standby="false"/>
 <perspectiveBar>
 <itemSize x="160"/>
 </perspectiveBar>
@@ -11,9 +10,11 @@
 <coolItem id="group.file" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.file" itemType="typeToolBarContribution" x="90" y="24"/>
 <coolItem id="additions" itemType="typeGroupMarker"/>
+<coolItem id="net.sourceforge.phpeclipse.PHPActionSet" itemType="typeToolBarContribution" x="154" y="24"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="106" y="24"/>
 <coolItem id="org.eclipse.jdt.ui.JavaElementCreationActionSet" itemType="typeToolBarContribution" x="90" y="24"/>
-<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="66" y="24"/>
+<coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="42" y="24"/>
+<coolItem id="org.eclipse.team.cvs.ui.CVSActionSet" itemType="typeToolBarContribution" x="34" y="24"/>
 <coolItem id="org.eclipse.wst.xml.ui.perspective.NewFileToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="org.eclipse.wst.xml.ui.design.DesignToolBar" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
@@ -23,7 +24,7 @@
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
-<page aggregateWorkingSetId="Aggregate for window 1323746394256" focus="true" label="Workspace - Java">
+<page aggregateWorkingSetId="Aggregate for window 1323746394256" focus="true" label="Workspace - PHP">
 <editors>
 <editorArea activeWorkbook="DefaultEditorWorkbook">
 <info part="DefaultEditorWorkbook">
@@ -34,22 +35,41 @@
 </editorArea>
 </editors>
 <views>
+<view id="org.eclipse.team.ui.GenericHistoryView" partName="History">
+<viewState/>
+</view>
+<view id="net.sourceforge.phpeclipse.webbrowser.views" partName="PHP Browser"/>
+<view id="org.eclipse.ui.views.BookmarkView" partName="Bookmarks"/>
+<view id="org.eclipse.pde.runtime.LogView" partName="Error Log">
+<viewState activate="true" allSessions="true" column2="300" column3="150" column4="195" error="true" groupBy="0" info="true" limit="50" ok="true" orderType="2" orderValue="-1" show_filter_text="true" useLimit="true" warning="true"/>
+</view>
+<view id="org.eclipse.team.ccvs.ui.RepositoriesView" partName="CVS Repositories">
+<viewState/>
+</view>
+<view id="org.eclipse.pde.ui.PluginsView" partName="Plug-ins"/>
+<view id="org.eclipse.ui.views.TaskList" partName="Tasks"/>
+<view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ResourceNavigator" partName="Navigator">
 <viewState LINK_NAVIGATOR_TO_EDITOR="0" sorter="1">
 <filters>
-<filter element="*.class" isEnabled="false"/>
+<filter element="*.class" isEnabled="true"/>
 <filter element=".*" isEnabled="false"/>
 <filter element="*.xml" isEnabled="false"/>
-<filter element="*.class" isEnabled="false"/>
+<filter element="*.class" isEnabled="true"/>
 <filter element="*.pyc" isEnabled="true"/>
-<filter element="*.class" isEnabled="false"/>
+<filter element="*.class" isEnabled="true"/>
 <filter element="*.pyo" isEnabled="true"/>
 </filters>
+<expanded>
+<element path="/SitioWeb"/>
+</expanded>
 </viewState>
 </view>
 <view id="org.eclipse.ui.views.ProblemView" partName="Problems">
 <viewState PRIMARY_SORT_FIELD="org.eclipse.ui.ide.severityAndDescriptionField" categoryGroup="org.eclipse.ui.ide.severity" markerContentGenerator="org.eclipse.ui.ide.problemsGenerator" partName="Problems">
-<columnWidths org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="423" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
+<columnWidths org.eclipse.ui.ide.locationField="73" org.eclipse.ui.ide.markerType="336" org.eclipse.ui.ide.pathField="143" org.eclipse.ui.ide.resourceField="108" org.eclipse.ui.ide.severityAndDescriptionField="350"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.severityAndDescriptionField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.resourceField"/>
 <visible IMemento.internal.id="org.eclipse.ui.ide.pathField"/>
@@ -59,7 +79,8 @@
 </view>
 <view id="org.eclipse.jdt.ui.PackageExplorer" partName="Package Explorer">
 <viewState configured="true" group_libraries="1" layout="2" linkWithEditor="0" rootMode="2" sortWorkingSets="false" workingSetName="Aggregate for window 1323473462269">
-<localWorkingSetManager>&#x0A;<workingSet editPageId="org.eclipse.jdt.internal.ui.OthersWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1323746424064_2" label="Other Projects" name="Other Projects"/>
+<localWorkingSetManager>&#x0A;<workingSet editPageId="org.eclipse.jdt.internal.ui.OthersWorkingSet" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1323746424064_2" label="Other Projects" name="Other Projects">&#x0A;<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/SitioWeb" type="4"/>
+</workingSet>
 </localWorkingSetManager>
 <activeWorkingSet workingSetName="Other Projects"/>
 <customFilters userDefinedPatternsEnabled="false">&#x0A;<xmlDefinedFilters>&#x0A;<child filterId="org.eclipse.jdt.ui.PackageExplorer.LibraryFilter" isEnabled="false"/>
@@ -87,17 +108,10 @@
 </customFilters>
 </viewState>
 </view>
-<view id="org.eclipse.ui.internal.introview" partName="Welcome">
-<viewState>
-<presentation currentPage="overview" restore="true"/>
-<standbyPart/>
-</viewState>
-</view>
-<view id="org.eclipse.jdt.ui.SourceView" partName="Declaration"/>
-<view id="org.eclipse.jdt.ui.JavadocView" partName="Javadoc"/>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console"/>
 </views>
-<perspectives activePart="org.eclipse.ui.internal.introview" activePerspective="org.eclipse.jdt.ui.JavaPerspective">
-<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<perspectives activePart="org.eclipse.ui.views.ResourceNavigator" activePerspective="net.sourceforge.phpeclipse.PHPPerspective">
+<perspective editorAreaTrimState="4" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.eclipse.jdt.internal.ui.JavaPerspectiveFactory" id="org.eclipse.jdt.ui.JavaPerspective" label="Java"/>
 <alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
 <alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
@@ -147,61 +161,254 @@
 <perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
 <perspective_action id="org.eclipse.jdt.ui.JavaBrowsingPerspective"/>
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
-<view id="org.eclipse.ui.views.ProblemView"/>
-<view id="org.eclipse.jdt.ui.JavadocView"/>
-<view id="org.eclipse.jdt.ui.SourceView"/>
 <view id="org.eclipse.jdt.ui.PackageExplorer"/>
-<view id="org.eclipse.ui.views.ResourceNavigator"/>
-<view id="org.eclipse.ui.internal.introview"/>
-<fastViewBars/>
-<layout>
-<mainWindow>
-<info folder="true" part="left">
-<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">
-<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
-<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<fastViewBars>&#x0A;<fastViewBar fastViewLocation="131072" id="org.eclipse.ui.internal.ViewStack@1930611" orientation="512" selectedTabId="org.eclipse.ui.internal.introview" style="1">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.internal.introview" ratio="0.22105263"/>
+</fastViews>
+</fastViewBar>
+<fastViewBar fastViewLocation="1024" id="bottom" orientation="256" selectedTabId="org.eclipse.ui.views.ProblemView" style="1">&#x0A;<fastViews>&#x0A;<view id="org.eclipse.ui.views.ProblemView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.JavadocView" ratio="0.3"/>
+<view id="org.eclipse.jdt.ui.SourceView" ratio="0.3"/>
+</fastViews>
+</fastViewBar>
+</fastViewBars>
+<layout>&#x0A;<mainWindow maximized="left">&#x0A;<info folder="true" part="left">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="1">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
 <page content="org.eclipse.ui.navigator.ProjectExplorer" label="LabelNotFound"/>
 <page content="org.eclipse.jdt.junit.ResultView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-<part id="1"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="org.eclipse.ui.internal.ViewStack@1930611" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">
-<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="1">
-<page content="org.eclipse.ui.internal.introview" label="Welcome"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1930611" ratio="0.7495049" ratioLeft="757" ratioRight="253" relationship="2" relative="left">&#x0A;<folder appearance="2" expanded="0">&#x0A;<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
 <page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
-</presentation>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
 </folder>
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.24950495" ratioLeft="252" ratioRight="758" relationship="2" relative="left"/>
-<info folder="true" part="bottom" ratio="0.7487765" ratioLeft="459" ratioRight="154" relationship="4" relative="org.eclipse.ui.editorss">
-<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
-<page content="org.eclipse.jdt.ui.JavadocView" label="Javadoc"/>
-<page content="org.eclipse.jdt.ui.SourceView" label="Declaration"/>
+<info folder="true" part="bottom" ratio="0.7487765" ratioLeft="459" ratioRight="154" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.JavadocView" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.SourceView" label="LabelNotFound"/>
 <page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.BookmarkView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
-<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
-<part id="0"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info folder="true" part="right" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
+<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
+<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.team.internal.ccvs.ui.CVSPerspective" id="org.eclipse.team.cvs.ui.cvsPerspective" label="CVS Repository Exploring"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.rubypeople.rdt.debug.ui.RDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.team.cvs.ui.CVSActionSet"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.team.ui.GenericHistoryView"/>
+<show_view_action id="org.eclipse.team.ccvs.ui.RepositoriesView"/>
+<show_view_action id="org.eclipse.team.sync.views.SynchronizeView"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.project"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.team.ui.TeamSynchronizingPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.team.ccvs.ui.RepositoriesView"/>
+<view id="org.eclipse.team.ui.GenericHistoryView"/>
+<view id="org.eclipse.ui.internal.introview"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="top">&#x0A;<folder activePageID="org.eclipse.team.ccvs.ui.RepositoriesView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.team.ccvs.ui.RepositoriesView" label="CVS Repositories"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@2e06bd" ratio="0.7496241" ratioLeft="997" ratioRight="333" relationship="2" relative="top">&#x0A;<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.internal.introview" label="Welcome"/>
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.4" ratioLeft="532" ratioRight="798" relationship="2" relative="top"/>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@3cc038" ratio="0.6998395" ratioLeft="436" ratioRight="187" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.team.ui.GenericHistoryView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.team.ui.GenericHistoryView" label="History"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="org.eclipse.pde.internal.ui.PDEPerspective" id="org.eclipse.pde.ui.PDEPerspective" label="Plug-in Development"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.rubypeople.rdt.debug.ui.RDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.breakpointActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaElementCreationActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.debugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.jdt.ui.JavaActionSet"/>
+<show_view_action id="org.eclipse.jdt.ui.PackagesView"/>
+<show_view_action id="org.eclipse.pde.ui.PluginsView"/>
+<show_view_action id="org.eclipse.ui.navigator.ProjectExplorer"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.TaskList"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.pde.runtime.LogView"/>
+<new_wizard_action id="org.eclipse.pde.ds.ui.wizard"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewProductConfigurationWizard"/>
+<new_wizard_action id="org.eclipse.pde.ui.NewProfileWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewPackageCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewClassCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewInterfaceCreationWizard"/>
+<new_wizard_action id="org.eclipse.jdt.ui.wizards.NewSourceFolderCreationWizard"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<perspective_action id="org.eclipse.jdt.ui.JavaPerspective"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.jdt.ui.PackageExplorer"/>
+<view id="org.eclipse.pde.ui.PluginsView"/>
+<view id="org.eclipse.pde.runtime.LogView"/>
+<view id="org.eclipse.ui.views.TaskList"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.internal.introview"/>
+<fastViewBars/>
+<layout>&#x0A;<mainWindow>&#x0A;<info folder="true" part="topLeft">&#x0A;<folder activePageID="org.eclipse.jdt.ui.PackageExplorer" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.jdt.ui.PackageExplorer" label="Package Explorer"/>
+<page content="org.eclipse.pde.ui.PluginsView" label="Plug-ins"/>
+<page content="org.eclipse.ui.views.ResourceNavigator" label="LabelNotFound"/>
+<page content="org.eclipse.jdt.ui.TypeHierarchy" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+<part id="1"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@16564b8" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="topLeft">&#x0A;<folder activePageID="org.eclipse.ui.internal.introview" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.internal.introview" label="Welcome"/>
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.2496318" ratioLeft="339" ratioRight="1019" relationship="2" relative="topLeft"/>
+<info folder="true" part="bottomRight" ratio="0.74959874" ratioLeft="467" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.pde.runtime.LogView" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.pde.runtime.LogView" label="Error Log"/>
+<page content="org.eclipse.ui.views.TaskList" label="Tasks"/>
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
 <part id="1"/>
 <part id="2"/>
 </presentation>
 </folder>
 </info>
-<info folder="true" part="right" ratio="0.74934036" ratioLeft="568" ratioRight="190" relationship="2" relative="org.eclipse.ui.editorss">
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1491ddc" ratio="0.74975467" ratioLeft="764" ratioRight="255" relationship="2" relative="org.eclipse.ui.editorss">&#x0A;<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">&#x0A;<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">&#x0A;<part id="0"/>
+</presentation>
+</folder>
+</info>
+</mainWindow>
+</layout>
+</perspective>
+<perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
+<descriptor class="net.sourceforge.phpeclipse.PHPPerspectiveFactory" id="net.sourceforge.phpeclipse.PHPPerspective" label="PHP"/>
+<alwaysOnActionSet id="org.eclipse.ui.cheatsheets.actionSet"/>
+<alwaysOnActionSet id="org.eclipse.search.searchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.annotationNavigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.navigation"/>
+<alwaysOnActionSet id="org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo"/>
+<alwaysOnActionSet id="org.eclipse.ui.externaltools.ExternalToolsSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.keyBindings"/>
+<alwaysOnActionSet id="org.eclipse.ui.actionSet.openFiles"/>
+<alwaysOnActionSet id="org.rubypeople.rdt.debug.ui.RDTDebugActionSet"/>
+<alwaysOnActionSet id="org.eclipse.debug.ui.launchActionSet"/>
+<alwaysOnActionSet id="org.eclipse.ui.NavigateActionSet"/>
+<alwaysOnActionSet id="net.sourceforge.phpeclipse.PHPActionSet"/>
+<show_view_action id="net.sourceforge.phpeclipse.webbrowser.views"/>
+<show_view_action id="org.eclipse.search.ui.views.SearchView"/>
+<show_view_action id="org.eclipse.ui.console.ConsoleView"/>
+<show_view_action id="org.eclipse.ui.views.ContentOutline"/>
+<show_view_action id="org.eclipse.ui.views.ProblemView"/>
+<show_view_action id="org.eclipse.ui.views.ResourceNavigator"/>
+<show_in_time id="org.eclipse.ui.views.ResourceNavigator" time="1360521939828"/>
+<new_wizard_action id="net.sourceforge.phpeclipse.wizards.PHPFileWizard"/>
+<new_wizard_action id="net.sourceforge.phpeclipse.wizards.NewWizardProjectCreation"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.folder"/>
+<new_wizard_action id="org.eclipse.ui.wizards.new.file"/>
+<perspective_action id="org.eclipse.debug.ui.DebugPerspective"/>
+<perspective_action id="org.eclipse.ui.resourcePerspective"/>
+<hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
+<view id="org.eclipse.ui.views.ProblemView"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.eclipse.ui.views.BookmarkView"/>
+<view id="net.sourceforge.phpeclipse.webbrowser.views"/>
+<view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.views.ResourceNavigator"/>
+<fastViewBars/>
+<layout>
+<mainWindow>
+<info folder="true" part="left">
+<folder activePageID="org.eclipse.ui.views.ResourceNavigator" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ResourceNavigator" label="Navigator"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@147e4f0" ratio="0.7496318" ratioLeft="1018" ratioRight="340" relationship="2" relative="left">
 <folder appearance="2" expanded="2">
-<page content="org.eclipse.ui.views.ContentOutline" label="LabelNotFound"/>
-<page content="org.eclipse.ui.texteditor.TemplatesView" label="LabelNotFound"/>
-<page content="org.eclipse.ant.ui.views.AntView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.internal.introview" label="LabelNotFound"/>
+<page content="org.eclipse.help.ui.HelpView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.cheatsheets.views.CheatSheetView" label="LabelNotFound"/>
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory"/>
+</folder>
+</info>
+<info part="org.eclipse.ui.editorss" ratio="0.2496318" ratioLeft="339" ratioRight="1019" relationship="2" relative="left"/>
+<info folder="true" part="bottom" ratio="0.74959874" ratioLeft="467" ratioRight="156" relationship="4" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ProblemView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ProblemView" label="Problems"/>
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.eclipse.ui.views.BookmarkView" label="Bookmarks"/>
+<page content="net.sourceforge.phpeclipse.webbrowser.views" label="PHP Browser"/>
+<page content="org.eclipse.search.ui.views.SearchView" label="LabelNotFound"/>
+<page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+<part id="2"/>
+<part id="3"/>
+</presentation>
+</folder>
+</info>
+<info folder="true" part="org.eclipse.ui.internal.ViewStack@1bc2e06" ratio="0.74975467" ratioLeft="764" ratioRight="255" relationship="2" relative="org.eclipse.ui.editorss">
+<folder activePageID="org.eclipse.ui.views.ContentOutline" appearance="2" expanded="2">
+<page content="org.eclipse.ui.views.ContentOutline" label="Outline"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+</presentation>
 </folder>
 </info>
 </mainWindow>
@@ -215,6 +422,9 @@
 <workbenchWindowAdvisor/>
 <actionBarAdvisor/>
 <trimLayout>
+<trimArea IMemento.internal.id="128">
+<trimItem IMemento.internal.id="org.eclipse.ui.internal.WorkbenchWindow.topBar"/>
+</trimArea>
 <trimArea IMemento.internal.id="1024">
 <trimItem IMemento.internal.id="org.eclise.ui.internal.FastViewBar"/>
 <trimItem IMemento.internal.id="org.eclipse.jface.action.StatusLineManager"/>
@@ -223,6 +433,9 @@
 </trimLayout>
 </window>
 <mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="conexion_db.php" tooltip="/var/www/TestSitioWeb/conexion_db.php">
+<persistable uri="file:/var/www/TestSitioWeb/conexion_db.php"/>
+</file>
 <file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.systemExternalEditor" name="Output.php" tooltip="/var/www/TestSitioWeb/Output.php">
 <persistable uri="file:/var/www/TestSitioWeb/Output.php"/>
 </file>

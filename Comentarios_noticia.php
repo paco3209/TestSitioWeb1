@@ -101,7 +101,7 @@ endwhile;
 endif;
 ?>
 
-
+</div>
 
 <?php
 do_html_footer();

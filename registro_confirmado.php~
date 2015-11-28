@@ -5,10 +5,12 @@ $pass1 = $_POST['password1'];
 $pass2 = $_POST['password2'];
 $mail = $_POST['mail'];
 
-mail($mail,"Marianela garca jajjaja","mensaje");
+mail($mail,"Prueba","mensaje");
 
 include('config.php');
 include('Output.php');
+
+if ($usuario & $pass1 & $pass2 & $mail) {
 
 if($pass1 != $pass2) {
 	header('Location: register_form.php');
@@ -36,5 +38,9 @@ else {
 		do_html_footer();		
 		} 
 }
+else {
+	header('Location: register_form.php');
+	}
+	}
 
 ?>

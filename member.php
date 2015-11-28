@@ -18,7 +18,7 @@ if ($usuario && $contrasena)
   catch(Exception $e)
   {
     // unsuccessful login
-    do_html_header('Problem:');
+    do_html_header('Error:');
     echo '<div id="login_form">';
     echo '<p id="error">Debes estar registrado para poder ver esta pagina.</p>';
     
@@ -31,8 +31,8 @@ if ($usuario && $contrasena)
 do_html_header('Home');
 check_valid_user();
 // get the bookmarks this user has saved
-echo '<a href="inicio.php">Ir a Pagina Principal</a>';
+/*echo '<a href="inicio.php">Ir a Pagina Principal</a>';
 echo '</div>';
-do_html_footer();
+do_html_footer();*/
 ?>
 
