@@ -1,5 +1,5 @@
 <?php
-//pruebgitsisis
+//pruebagit
 
 require_once('PageNavigator.php');
 
