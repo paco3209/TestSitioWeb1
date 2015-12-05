@@ -475,6 +475,7 @@ function display_login_form()
    </table></form>
 </div>   
    </div>
+  </div><!-- final div principal -->
 <?php
 }
 
@@ -512,6 +513,7 @@ function display_register_form()
 </tr>   
    </table></form>
 </div>   
+</div>
 </div>
 <?php
 }
@@ -569,6 +571,7 @@ function display_cerrar_sesion () {
 <div id="formulario">	
 	<h1 align="center">Cerraste Sesion</h1>	
 	<a href="index.php" id="VolverPaginaPrincipal">Pagina Principal</a>
+</div>
 </div>
 </div>
 <?php	

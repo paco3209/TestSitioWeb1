@@ -20,6 +20,7 @@ else {
 	echo '<div id="login_form">';	
 	echo '<p id="error">Debes estar registrado para poder ingresar una noticia.</p>';
 	echo '</div>';
+	echo '</div>'; 
 	do_html_footer();
 }
 ?>
