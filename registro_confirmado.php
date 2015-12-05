@@ -30,7 +30,7 @@ else {
 <div id="formulario">
 <h1 align="center">Registro Ingresado ;)</h1>
 
-<a href='inicio.php' id="volverNoticia" >Ir a Portada</a>
+<a href='index.php' id="volverNoticia" >Ir a Portada</a>
 </div>  
 </div>
 

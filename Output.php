@@ -64,7 +64,7 @@ else {
  <?php
 }
 ?>
-</div>	
+</div>	<!-- grid_12 -->
 <div class="clear"></div>  
    </div><!--container_12-->
    </div><!--top-->
@@ -94,7 +94,7 @@ function do_html_footer()
   // print an HTML footer
 ?>
 	
-	</div>
+	
 	<div class="clear"></div>
 <div id="footer_body">
 <div class="container_12">	
@@ -106,7 +106,7 @@ function do_html_footer()
 <!-- END OF HIT COUNTER CODE -->
 	
 </div>
-
+</div>
 	 
   </body>
   </html>
@@ -276,7 +276,7 @@ if($numpages>1){
 }
 ?>
 </div>
-
+</div>
 <?php
 }
 
@@ -568,7 +568,7 @@ function display_cerrar_sesion () {
 <div id="comentarioOK" class="grid_12">
 <div id="formulario">	
 	<h1 align="center">Cerraste Sesion</h1>	
-	<a href="inicio.php" id="VolverPaginaPrincipal">Pagina Principal</a>
+	<a href="index.php" id="VolverPaginaPrincipal">Pagina Principal</a>
 </div>
 </div>
 <?php	

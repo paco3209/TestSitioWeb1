@@ -46,7 +46,7 @@ else
 	{
 //	echo "Registro Ingresado Correctamente</br>";
 //	echo "<a href=inicio.php>Inicio</a>";
-header('Location: inicio.php');
+header('Location: index.php');
       exit();
 
 }	

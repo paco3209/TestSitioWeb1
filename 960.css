@@ -2,12 +2,12 @@
 body {
 	margin: 0;
 	background-color: #FFFFFF;
-			height: 100%;
+	
 }
 
 #principal{
 	background-color: #FFFFFF;
-	height: 100%;
+	
 }
 #logo {
 background-color: #444444;
@@ -531,7 +531,7 @@ border-radius: 6px;
 }
 
 #footer {
-	position: relative;
+	position: absolute;
 	background-color: #444444;
 	color: #aaaaaa;
 	height: 100px;
@@ -545,10 +545,10 @@ border-radius: 6px;
 	background-color: #444444;
 	height: 120px;
 	position: relative;
-	top: 0;
-	left: 0;
-	margin:  0px auto -150px;
 	bottom: 0px;
+	clear: both;
+	z-index: 10;
+	padding-bottom: 3em;
 }
 
 #login_form, #comentarioOK, #entry{
